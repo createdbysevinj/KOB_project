@@ -17,10 +17,10 @@ const Dashboard = ({ financialData, animateCards, onNavigate }) => {
   ];
 
   const navItems = [
-    { label: 'Planlar', target: 'dashboard' },
+    { label: 'Ana Səhifə', target: 'dashboard' },
     { label: 'Simulyator', target: 'simulator' },
     { label: 'AI Tövsiyəçi', target: 'ai' },
-    { label: 'Premium', target: 'subscription' },
+    { label: 'Planlar', target: 'subscription' },
   ];
 
   return (
